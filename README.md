@@ -13,24 +13,31 @@
 Folder Structure:
 
 AGE_EMOTION_DETECTION_MOVIE_THEATRE
-|--- CSV_File
-|--- |--- detections.csv
-|--- Dataset
-|    |--- Emotions
-|    |    |--- test
-|    |    |--- train
-|    |--- UTKFace
-|--- Models
-|--- |--- ageModel.h5
-|--- |--- ageModel2.h5
-|--- |--- emotionModel1.h5
-|--- |--- emotionModel2.h5
-|--- |--- emotionModel3.h5
-|--- Notebooks
-|--- |--- Age_Detection_model.ipynb
-|--- |--- Emotion_Detection_model.ipynb
-|--- app.py
-|--- requirements.txt
+│── CSV_File/
+│   ├── detections.csv                 # Stores detected age & emotion data
+│
+│── Dataset/
+│   ├── Emotions/                       # Emotion dataset (FER2013)
+│   │   ├── test/
+│   │   ├── train/
+│   ├── UTKFace/                        # Age dataset (UTKFace)
+│
+│── Models/                             # Pre-trained deep learning models
+│   ├── ageModel.h5
+│   ├── ageModel2.h5
+│   ├── emotionModel1.h5
+│   ├── emotionModel2.h5
+│   ├── emotionModel3.h5
+│
+│── Notebooks/                          # Jupyter notebooks for model training
+│   ├── Age_Detection_model.ipynb
+│   ├── Emotion_Detection_model.ipynb
+│
+│── Report/                             # Project documentation and analysis
+│
+│── app.py                              # Main application for real-time detection
+│── requirements.txt                     # Required Python packages
+
 
 How to Run:
 
