@@ -11,7 +11,7 @@
 - Download and Extract the Models and plce them in the project directory
 
 Folder Structure:
-
+```plaintext
 AGE_EMOTION_DETECTION_MOVIE_THEATRE
 │── CSV_File/
 │   ├── detections.csv                 # Stores detected age & emotion data
@@ -37,7 +37,7 @@ AGE_EMOTION_DETECTION_MOVIE_THEATRE
 │
 │── app.py                              # Main application for real-time detection
 │── requirements.txt                     # Required Python packages
-
+```
 
 How to Run:
 
